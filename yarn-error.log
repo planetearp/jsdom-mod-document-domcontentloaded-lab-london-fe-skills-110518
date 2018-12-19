@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install --no-lockfile
+
+PATH: 
+  /var/opt/rails/bin:/var/opt/httpserver/bin:/var/opt/atom/bin:/var/opt/shotgun/bin:/var/opt/rackup/bin:/var/opt/jekyll/bin:/usr/local/rvm/gems/ruby-2.3.1/bin:/usr/local/rvm/gems/ruby-2.3.1@global/bin:/usr/local/rvm/rubies/ruby-2.3.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/rvm/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  8.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/browser-sync-ui/-/browser-sync-ui-0.6.3.tgz: unexpected end of file
+      at Gunzip.zlibOnError (zlib.js:153:15)
+
+npm manifest: 
+  {
+    "name": "jsdom-mod-document-domcontentloaded-lab",
+    "version": "0.1.0",
+    "description": "jsdom-mod-document-domcontentloaded-lab",
+    "main": "index.js",
+    "scripts": {
+      "postinstall": "gem install learn-co",
+      "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/learn-co-curriculum/jsdom-mod-document-domcontentloaded-lab.git"
+    },
+    "keywords": [
+      "learn",
+      "flatiron school",
+      "javascript",
+      "control flow",
+      "if",
+      "else",
+      "lab"
+    ],
+    "author": "@jk",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "bugs": {
+      "url": "https://github.com/learn-co-curriculum/jsdom-mod-document-domcontentloaded-lab/issues"
+    },
+    "homepage": "https://github.com/learn-co-curriculum/jsdom-mod-document-domcontentloaded-lab#readme",
+    "devDependencies": {
+      "learn-browser": "^0.1.13"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
